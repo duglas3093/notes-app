@@ -20,7 +20,6 @@ export default function Notes({notes, setNotes}) {
             .catch((error) =>{
                 alert(error.response)
             })
-
     }
     
     const updateNote = (newNote)=>{
